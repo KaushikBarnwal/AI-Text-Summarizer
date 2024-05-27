@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AI Text Summarizer App</title>
-    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
     <h1>AI Text Summarizer App</h1>
@@ -19,7 +20,7 @@
                 </button>
             </div>
             <div class="text-box">
-                <textarea id="summary" placeholder="Summarized Text will Display Here" readonly>{{Summary}}</textarea>
+                <textarea id="summary" placeholder="Summarized Text will Display Here" readonly>{{ Summary }}</textarea>
             </div>
         </div>
     </form>   
