@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <h1>AI Text Summarizer App</h1>
+    <p>Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts...</p>
+    <div class="container">
+        <div class="text-box">
+            <textarea id="text_to_summarize" placeholder="Paste Some Text here to Summarize. (Min length - 200 char: Max length - 100,000 char.)"></textarea>
+            <button id="submit-button" class="submit-button" disabled>
+                <span class="submit-button-text">Summarize</span>
+            </button>
+        </div>
+        <div class="text-box">
+            <textarea id="summary" placeholder="Summarized Text will Display Here" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@huggingface/transformers"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@huggingface/model_hub"></script>
+    <!-- <script src="../static/js/pipeline.js"></script> -->
+    <script src="../static/js/summarize.js"></script>
+</body>
+</html>
