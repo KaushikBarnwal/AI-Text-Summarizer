@@ -28,7 +28,7 @@ Welcome to the AI Text Summarizer App! This Flask web application leverages the 
 2. Navigate to the project directory:
 
     ```bash
-    cd ai-text-summarizer
+    cd AI-Text-Summarizer
     ```
 
 3. Install dependencies:
