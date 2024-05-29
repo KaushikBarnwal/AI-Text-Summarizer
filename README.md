@@ -22,7 +22,7 @@ Welcome to the AI Text Summarizer App! This Flask web application leverages the 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Bishwarup-Das/AI-Text-Summarizer.git
+    git clone https://github.com/KaushikBarnwal/AI-Text-Summarizer.git
     ```
 
 2. Navigate to the project directory:
